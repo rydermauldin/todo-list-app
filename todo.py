@@ -8,6 +8,8 @@ def add_task(task):
     tasks.append(task)
 
 # Step 3: View tasks
+def view_tasks():
+    print(tasks)
 
 # Step 4: Delete a task
 
