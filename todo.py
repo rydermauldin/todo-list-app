@@ -17,7 +17,9 @@ def del_task(index):
 
 
 # Step 5: Mark task complete
-
+def mark_complete(index):
+    print(tasks[index] + " Complete")
+    del_task(index)
 
 # Step 6: Save/load tasks (extra stretch for today)
 
