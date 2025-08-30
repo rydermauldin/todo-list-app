@@ -12,6 +12,8 @@ def view_tasks():
     print(tasks)
 
 # Step 4: Delete a task
+def del_task(index):
+    tasks.pop(index)
 
 
 # Step 5: Mark task complete
@@ -28,3 +30,4 @@ if __name__ == "__main__":
     mark_complete(0)
     view_tasks()
     save_tasks()
+    
